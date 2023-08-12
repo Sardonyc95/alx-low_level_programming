@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int n;
-	int p;
+	int n = 48;
+	int p = 57;
 
-	for (n = 48; n <= 57; n++)
+	for (p = 48; p <= 57; p++)
 	{
-		for (p = 48; p <= 57; p++)
+		for (n = 48; n <= 57; n++)
 		{
 			if (!((n == p) || (p > n)))
 			{
