@@ -10,33 +10,33 @@
  */
 int main(void)
 {
-	int m;
-
-	for (m = 1; m <= 100; m++)
+	int n;
+	for (n = 1; n <= 100; n++)
 	{
-		if (m % 3 == 0)
-		{
-			printf("FIZZ");
-		}
-		else if (m % 5 == 0)
-		{
-			printf("BUZZ");
-		}
-		else if ((m % 3 == 0) && (m % 5 == 0))
+		if ((n % 3) == 0 && (n % 5) == 0)
 		{
 			printf("FIZZBUZZ");
 		}
+		else if ((n % 3) == 0)
+		{
+			printf("FIZZ");
+		}
+		else if ((n % 5) == 0)
+		{
+			printf("BUZZ");
+		}
 		else
 		{
-			printf("%d", m);
+			printf("%d", n);
 		}
-
-		if (m == 100)
+		if (n == 100)
 		{
 			continue;
 		}
 		printf(" ");
 	}
+
 	printf("\n");
+
 	return (0);
 }
