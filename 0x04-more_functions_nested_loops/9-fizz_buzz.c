@@ -10,33 +10,29 @@
  */
 int main(void)
 {
-	int n;
-	for (n = 1; n <= 100; n++)
+	int digt;
+
+	for (digt = 1; digt <= 100; digt++)
 	{
-		if ((n % 3) == 0 && (n % 5) == 0)
-		{
+		if ((digt % 3) == 0 && (digt % 5) == 0)
 			printf("FIZZBUZZ");
-		}
-		else if ((n % 3) == 0)
-		{
+
+		else if ((digt % 3) == 0)
 			printf("FIZZ");
-		}
-		else if ((n % 5) == 0)
-		{
+
+		else if ((digt % 5) == 0)
 			printf("BUZZ");
-		}
+
 		else
-		{
-			printf("%d", n);
-		}
-		if (n == 100)
-		{
+			printf("%d", digt);
+
+		if (digt == 100)
 			continue;
-		}
 		printf(" ");
 	}
 
 	printf("\n");
 
 	return (0);
+
 }
