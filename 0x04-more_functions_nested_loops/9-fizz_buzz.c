@@ -3,9 +3,6 @@
 /**
  * main - Entry point
  * Description: Function that prints the numbers from 1-100.
- *    Multiples of 3, print FUZZ.
- *    Multiples of 5, print BUZZ
- *    And multiple of both 3 and 5, print FUZZBUZZ.
  * Return: alwyas 0 (success)
  */
 int main(void)
