@@ -6,37 +6,41 @@
  */
 int main(void)
 {
-	unsigned long int i;
-	unsigned long int nul = 1;
-	unsigned long int mul = 2;
-	unsigned long int nul1;
-	unsigned long int nul2;
-	unsigned long int mul1;
-	unsigned long int mul2;
-	unsigned long int I = 1000000000;
+	int count;
+	unsigned long mul1 = 0, mul2 = 0, sum;
+	unsigned long mul1_half1, mul1_half2, mul2_half1, mul2_half2;
+	unsigned long half1, half2;
 
-	printf("%lu", nul);
-
-	for (i = 1; i < 91; i++)
+	for (count = 0; count < 92; count++)
 	{
-		printf(", %lu", mul);
-		mul += nul;
-		nul = mul - nul;
+		sum = mul1 + mul2;
+		printf("%lu,", sum);
+		mul1 = mul2;
+		mul2 = sum;
 	}
+	mul1_half1 = mul1 / 10000000000;
+	mul2_half1 = mul2 / 10000000000;
+	mul1_half2 = mul1 % 10000000000;
+	mul2_half2 = mul2 % 10000000000;
 
-	nul1 = (nul / I);
-	nul2 = (nul % I);
-	mul1 = (mul / I);
-	mul2 = (mul % I);
-
-	for (i = 92; i < 99; ++i)
+	for (count = 93; count < 99; count++)
 	{
-		printf(", %lu", mul1 + (mul2 / I));
-		printf("%lu", mul2 % I);
-		mul1 = mul1 + nul1;
-		mul1 = mul1 - nul1;
-		mul2 = mul2 + nul2;
-		nul2 = mul2 - nul2;
+		half1 = mul1_half1 + mul2_half1;
+		half2 = mul1_half2 + mul2_half2;
+		if (mul1_half2 + mul2_half2 > 9999999999)
+		{
+			half1 += 1;
+			half2 %= 10000000000;
+		}
+		printf("%lu%lu", half1, half2);
+		if (count != 98)
+		{
+			printf(", ");
+			mul1_half1 = mul2_half1;
+			mul1_half2 = mul2_half2;
+			mul2_half1 = half1;
+			mul2_half2 = half2;
+		}
 	}
 	printf("\n");
 	return (0);
