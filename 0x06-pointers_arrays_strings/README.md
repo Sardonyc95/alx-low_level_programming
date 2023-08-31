@@ -135,4 +135,3 @@ The function must print the content of size bytes of the buffer pointed by b
 	If size is 0 or less, the output should be a new line only \n
 	You are allowed to use the standard library
 	The output should look like the following example, and formatted exactly the same way
-
