@@ -102,3 +102,26 @@
 - How to use arguments passed to your program
 - What are two prototypes of main that you know of, and in which case do you use one or the other
 - How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters
+
+## 0x0B. C - malloc, free
+### Learning Objectives:
+- What is the difference between automatic and dynamic allocation
+- What is malloc and free and how to use them
+- Why and when use malloc
+- How to use valgrind to check for memory leak
+
+## 0x0C. C - More malloc, free
+### Learning Objectives:
+- How to use the exit function
+- What are the functions calloc and realloc from the standard library and how to use them
+
+## 0x0D. C - Preprocessor
+### Learning Objectives:
+- What are macros and how to use them
+- What are the most common predefined macros
+- How to include guard your header files
+
+## 0x0E. C - Structures, typedef
+### Learning Objectives:
+- What are structures, when, why and how to use them
+- How to use typedef
