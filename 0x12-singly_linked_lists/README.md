@@ -1,5 +1,5 @@
-# Singly Linked Lists
-## PROJECT TASKS QUESTIONS
+# Singly Linked Lists (C, Algorithm and Data structure)
+                           PROJECT TASKS QUESTIONS
 
 ### Task 0. Print list
 
