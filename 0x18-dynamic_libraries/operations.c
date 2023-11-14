@@ -37,7 +37,7 @@ int mul(int a, int b)
 }
 
 /**
- * div - divide two integers
+ * div_digit - divide two integers
  * @a: input param 1
  * @b: input param 2
  *
