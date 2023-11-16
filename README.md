@@ -163,6 +163,13 @@ There should be one project repository per group. The other members do not fork 
 - How to use linked lists
 - Start to look for the right source of information without too much help
 
+### 0x17. C - Doubly linked lists
+#### Learning Objectives: [C, Algorithm, Data structure]
+- What is a doubly linked list
+- How to use doubly linked lists
+- Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
+- Start to look for the right source of information without too much help
+
 
 ## Low-level programming & Algorithm - Linux and Unix system programming
                           PROJECTS/TASKS
