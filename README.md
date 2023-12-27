@@ -170,6 +170,31 @@ There should be one project repository per group. The other members do not fork 
 - Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
 - Start to look for the right source of information without too much help
 
+### 0x19. C - Stacks, Queues - LIFO, FIFO
+#### Learning Objectives: [C, Group project, Algorithm, Data structure]
+- What do LIFO and FIFO mean
+- What is a stack, and when to use it
+- What is a queue, and when to use it
+- What are the common implementations of stacks and queues
+- What are the most common use cases of stacks and queues
+- What is the proper way to use global variables
+
+### 0x1A. C - Hash tables
+#### Learning Objectives: [C, Algorithm, Data structure]
+- What is a hash function
+- What makes a good hash function
+- What is a hash table, how do they work and how to use them
+- What is a collision and what are the main ways of dealing with collisions in the context of a hash table
+- What are the advantages and drawbacks of using hash tables
+- What are the most common use cases of hash tables
+
+### 0x1B. C - Sorting algorithms & Big O
+### Learning Objectives: [C, Algorithm, Data structures]
+- At least four different sorting algorithms
+- What is the Big O notation, and how to evaluate the time complexity of an algorithm
+- How to select the best sorting algorithm for a given input
+- What is a stable sorting algorithm
+
 
 ## Low-level programming & Algorithm - Linux and Unix system programming
                           PROJECTS/TASKS
